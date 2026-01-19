@@ -5,6 +5,8 @@ restaurantes = [{'nome':'Praça', 'categoria':'Japonesa', 'ativo':False},
                 {'nome':'Cantina', 'categoria':'Italiano', 'ativo':False}]
 
 def exibir_nome_do_programa():
+    '''Função que exibe o nome do nosso programa'''
+
     print("""
 ░██████╗░█████╗░██████╗░░█████╗░██████╗░  ███████╗██╗░░██╗██████╗░██████╗░███████╗░██████╗░██████╗
 ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔══██╗  ██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝
@@ -15,6 +17,8 @@ def exibir_nome_do_programa():
 """)
 
 def exibir_opcoes():
+    '''Exibe as opções de menus do programa'''
+
     print('1. Cadastrar restaurante')
     print('2. Listar restaurantes')
     print('3. Alternar estado do restaurante')
@@ -40,6 +44,17 @@ def exibir_subtitulo(texto):
     print()
 
 def cadastrar_novo_restaurante():
+    '''Essa função é responsavel por cadastrar novos restaurantes
+    
+    Input:
+    - Nome do restaurante
+    - Categoria
+
+    Output:
+    - Adiciona um novo restaurante à lista de restaurantes
+
+    ''' #docstring da função
+
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar: ')
     categoria = input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: ')
