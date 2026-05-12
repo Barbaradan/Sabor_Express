@@ -1,4 +1,4 @@
-# 🍽️ Sistema de Cadastro de Restaurantes (Python)
+# 🍽️ Sistema de Cadastro de Restaurantes
 
 ## Descrição do Projeto
 
