@@ -32,4 +32,7 @@ O objetivo principal é demonstrar a evolução de um código funcional para um 
    ```bash
    git clone [https://github.com/SeuUsuario/sabor-express.git](https://github.com/SeuUsuario/sabor-express.git)
 
-<img width="1134" height="685" alt="image" src="https://github.com/user-attachments/assets/3f7e5686-daf0-4d1f-8d7a-0302cecb14b8" />
+## Programa em uso
+https://github.com/user-attachments/assets/a39a16fd-313e-4f88-aabe-19b16e168053
+
+
