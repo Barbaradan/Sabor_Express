@@ -1,24 +1,33 @@
-# 🍽️ Sistema de Cadastro de Restaurantes
+# 🍽️ Sabor Express - Sistema de Gestão de Restaurantes
 
-## Descrição do Projeto
+## 💻 Descrição do Projeto
 
-Este projeto consiste em um programa em Python executado no terminal, que permite cadastrar, listar e gerenciar restaurantes, simulando um pequeno sistema de controle.
+Este projeto é um sistema de controle e gerenciamento de restaurantes desenvolvido em Python. Inicialmente construído como uma aplicação de terminal (CLI), o projeto foi totalmente refatorado para apresentar uma **Interface Gráfica (GUI) moderna**, com suporte a Dark Mode. 
 
-O objetivo principal é praticar lógica de programação, funções, listas, dicionários e interação com o usuário.
+O objetivo principal é demonstrar a evolução de um código funcional para um software amigável ao usuário final, aplicando conceitos de estruturação de dados, interface visual e Programação Orientada a Objetos.
 
-## Funcionalidades
-- Cadastrar novos restaurantes com nome e categoria
-- Listar todos os restaurantes cadastrados
-- Exibir o status do restaurante (ativado ou desativado)
-- Alternar o estado de um restaurante (ativar/desativar)
-- Menu interativo no terminal
-- Tratamento básico de erros para opções inválidas
+## ⚙️ Funcionalidades
 
-## Conceitos Aplicados
-- Uso de listas e dicionários para armazenar dados
-- Criação e organização de funções
-- Estrutura de menu interativo
-- Uso de condicionais e laços de repetição
-- Tratamento de exceções com try/except
-- Uso de docstrings para documentar funções
-- Manipulação do terminal com a biblioteca os
+* **Cadastro:** Adição de novos restaurantes com nome e categoria.
+* **Listagem Dinâmica:** Visualização de todos os restaurantes cadastrados em um painel organizado.
+* **Controle de Status:** Capacidade de alternar o estado de um restaurante (ativado/desativado) com apenas um clique.
+* **Interface Gráfica:** Tela interativa e moderna com tema escuro.
+* **Feedback Visual:** Tratamento de erros em tempo real com mensagens na tela (ex: avisos de campos vazios ou sucesso no cadastro).
+
+## 🧠 Conceitos Aplicados
+
+* **Programação Orientada a Objetos (POO):** Estruturação do aplicativo em classes e métodos.
+* **Interface Gráfica (GUI):** Construção de janelas, frames, botões e caixas de texto com a biblioteca `CustomTkinter`.
+* **Estruturas de Dados:** Uso contínuo de listas e dicionários para gerenciar os dados em memória.
+* **Lógica de Programação:** Condicionais, laços de repetição e fatiamento de strings (slicing) para manter o layout da tabela alinhado.
+
+## 🛠️ Tecnologias Utilizadas
+
+* Python 3.x
+* CustomTkinter (Framework de UI)
+
+## 🚀 Como executar o projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SeuUsuario/sabor-express.git](https://github.com/SeuUsuario/sabor-express.git)
