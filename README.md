@@ -31,3 +31,5 @@ O objetivo principal é demonstrar a evolução de um código funcional para um 
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/SeuUsuario/sabor-express.git](https://github.com/SeuUsuario/sabor-express.git)
+
+<img width="1134" height="685" alt="image" src="https://github.com/user-attachments/assets/3f7e5686-daf0-4d1f-8d7a-0302cecb14b8" />
